@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--     XML Sensor descriptions for the CML SENSOR INFRASTRUCTURE     -->
+<!--  Copyright 2005 Cooperative Media Lab, Bauhaus University Weimar  -->
+<!--                                        and University of Bamberg  -->
+
+<!--  Note:                                                            -->
+<!--  The sensor descriptions in this file will be parsed at server    -->
+<!--  startup process. You can modify these descriptions, but you      -->
+<!--  can also disable the sensor initialization: write '#' in front   -->
+<!--  of the entry "server.sensorhandler.sensorfile" in the            -->
+<!--  configuration file "server.properties".                          -->
+
+<Sensors>
+  <Sensor id="ESB1Button" class="Button">
+    <Description>ESB hardware button, true or false.</Description>
+    <HardwareID />
+    <Command />
+    <LocationID>WE5/01.045</LocationID>
+    <Owner>Cooperative Media Lab</Owner>
+    <Comment>This sensor is created via the XML description</Comment>
+    <AvailableSince>2005-01-01 10:00:00</AvailableSince>
+    <AvailableUntil>2014-12-01 12:00:00</AvailableUntil>
+    <SensorActivity activity="active" />
+    <NativeDataType>String</NativeDataType>
+    <MaximumValue>0.0</MaximumValue>
+    <MinimumValue>0.0</MinimumValue>
+  </Sensor>
+  <Sensor id="phidget" class="Temperature">
+    <Description>Does what only phidgets can do.</Description>
+    <HardwareID>InterfaceKit</HardwareID>
+    <Command />
+    <LocationID>WE5/01.045</LocationID>
+    <Owner>Cooperative Media Lab</Owner>
+    <Comment>This sensor is created via the XML description</Comment>
+    <AvailableSince>2005-01-01 10:00:00</AvailableSince>
+    <AvailableUntil>2014-12-01 12:00:00</AvailableUntil>
+    <SensorActivity activity="active" />
+    <NativeDataType>Integer</NativeDataType>
+    <MaximumValue>1000</MaximumValue>
+    <MinimumValue>0</MinimumValue>
+  </Sensor>
+</Sensors>

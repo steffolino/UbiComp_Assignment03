@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--   XML SensorType descriptions for the CML SENSOR INFRASTRUCTURE   -->
+<!--  Copyright 2005 Cooperative Media Lab, Bauhaus University Weimar  -->
+<!--                                        and University of Bamberg  -->
+
+<!--  Note:                                                            -->
+<!--  The sensor type descriptions in this file will be parsed at      -->
+<!--  server startup process. You can modify these descriptions, but   -->
+<!--  you can also disable the sensor initialization: write '#' in     -->
+<!--  front of the entry "server.sensorhandler.sensortypefile" in the  -->
+<!--  configuration file "server.properties".                          -->
+
+<SensorTypes>
+  <SensorType>
+    <ID>MessengerStatus</ID>
+    <Description>Instant messenger availability status.</Description>
+  </SensorType>
+  <SensorType>
+    <ID>NoiseCounter</ID>
+    <Description>Microphone, counter.</Description>
+  </SensorType>
+  <SensorType>
+    <ID>Temperature</ID>
+    <Description>Temperature sensor module.</Description>
+  </SensorType>
+  <SensorType>
+    <ID>Vibration</ID>
+    <Description>Vibration sensor.</Description>
+  </SensorType>
+  <SensorType>
+    <ID>ASCII</ID>
+    <Description>Keyboard ASCII input.</Description>
+  </SensorType>
+  <SensorType>
+    <ID>CellPhoneState</ID>
+    <Description>Cell phone state.</Description>
+  </SensorType>
+  <SensorType>
+    <ID>Presence</ID>
+    <Description>Presence information, CML PRIMI project.</Description>
+  </SensorType>
+  <SensorType>
+    <ID>Light</ID>
+    <Description>Light intensity measurement.</Description>
+  </SensorType>
+  <SensorType>
+    <ID>CellPhoneText</ID>
+    <Description>Cell phone text messages.</Description>
+  </SensorType>
+  <SensorType>
+    <ID>Button</ID>
+    <Description>Hardware Button, true or false.</Description>
+  </SensorType>
+  <SensorType>
+    <ID>Other</ID>
+    <Description>Type not specified.</Description>
+  </SensorType>
+  <SensorType>
+    <ID>Service</ID>
+    <Description>Calculated service values.</Description>
+  </SensorType>
+  <SensorType>
+    <ID>Movement</ID>
+    <Description>Movement sensor. IR passive.</Description>
+  </SensorType>
+  <SensorType>
+    <ID>NoiseAverage</ID>
+    <Description>Microphone, average value.</Description>
+  </SensorType>
+  <SensorType>
+    <ID>Noise</ID>
+    <Description>Microphone noise measurement.</Description>
+  </SensorType>
+  <SensorType>
+    <ID>CellPhoneRC</ID>
+    <Description>Use cell phone as remote control.</Description>
+  </SensorType>
+  <SensorType>
+    <ID>MessengerText</ID>
+    <Description>Instant messenger text message.</Description>
+  </SensorType>
+  <SensorType>
+    <ID>Infrared</ID>
+    <Description>Infrared command receiver.</Description>
+  </SensorType>
+  <SensorType>
+    <ID>Binary</ID>
+    <Description>Sensor with binary state: 0 or 1, true or false.</Description>
+  </SensorType>
+</SensorTypes>
+
+

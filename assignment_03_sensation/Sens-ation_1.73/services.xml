@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--    XML Service descriptions for the CML SENSOR INFRASTRUCTURE     -->
+<!--  Copyright 2005 Cooperative Media Lab, Bauhaus University Weimar  -->
+<!--                                        and University of Bamberg  -->
+
+<!--  Note:                                                            -->
+<!--  The service class descriptions in this file will be parsed at    -->
+<!--  server startup process. You can modify these descriptions, but   -->
+<!--  you can also disable the service initialization: write '#' in    -->
+<!--  front of the entry "server.sensorhandler.servicefile" in the     -->
+<!--  configuration file "server.properties".                          -->
+
+
+<ServiceLoad>
+  <ServiceClass>
+    de.cmlab.sensation.server.services.ServiceAwareness
+  </ServiceClass>
+  <ServiceClass>
+    de.cmlab.sensation.server.services.ServiceMessenger
+  </ServiceClass>
+</ServiceLoad>
+
+
+

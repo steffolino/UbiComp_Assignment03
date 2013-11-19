@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--    XML Location descriptions for the CML SENSOR INFRASTRUCTURE    -->
+<!--  Copyright 2005 Cooperative Media Lab, Bauhaus University Weimar  -->
+<!--                 Cooperative Media Lab, University of Bamberg      -->
+
+
+<!--  Note:                                                            -->
+<!--  The location descriptions in this file will be parsed at server  -->
+<!--  startup process. You can modify these descriptions, but you can  -->
+<!--  also disable the sensor initialization: write '#' in front       -->
+<!--  of the entry "server.sensorhandler.locationfile" in the          -->
+<!--  configuration file "server.properties".                          -->
+
+<Locations>
+  <Location id="Mobile">
+    <Description>Mobile devices, e.g. cell phone or PDA. Can submit their location as event.</Description>
+    <DegreeOfLongitude>0.0</DegreeOfLongitude>
+    <DegreeOfLatitude>0.0</DegreeOfLatitude>
+    <HeightAboveSeaLevel>0.0</HeightAboveSeaLevel>
+    <Type />
+  </Location>
+  <Location id="WE5/01.045">
+    <Description>HCI-Group, University of Bamberg, Room 01.045, An der Weberei 5, 96047 Bamberg, Germany</Description>
+    <DegreeOfLongitude>10.869367</DegreeOfLongitude>
+    <DegreeOfLatitude>49.903027</DegreeOfLatitude>
+    <HeightAboveSeaLevel>239</HeightAboveSeaLevel>
+    <Type>inside</Type>
+  </Location>
+</Locations>
+
